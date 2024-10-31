@@ -1,0 +1,13 @@
+.button:disabled {
+    -fx-opacity: 1;  /* Prevent fading */
+    -fx-base: lightgray;  /* Change the background color to indicate disabled state */
+    -fx-text-fill: black;  /* Keep the text color the same */
+    -fx-effect: null; /* Remove any effects that may be applied */
+}
+.winner {
+    -fx-background-color: gold; /* Change to gold to indicate a win */
+    -fx-text-fill: black; /* Optional: Change text color for visibility */
+    -fx-opacity: 1; /* Ensure full opacity */
+    -fx-border-color: green; /* Optional: Add a border to winning buttons */
+    -fx-border-width: 2px; /* Optional: Set the border width */
+}
